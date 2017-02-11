@@ -1,0 +1,7 @@
+version: '2'
+services:
+  radio:
+    image: "okvic77/airtime"
+    ports:
+      - "8080:80"
+      - "8000:8000"
